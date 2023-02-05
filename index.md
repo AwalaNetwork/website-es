@@ -10,4 +10,4 @@ Awala es una red de computadoras que hará posible que ciertas aplicaciones en t
 
 La tecnología fue creada para evitar que dictaduras censuren a la población cortando el acceso a Internet, pero también se podrá usar para conectar a los sobrevivientes de desastres naturales y a comunidades remotas que carezcan de acceso a Internet permanentemente.
 
-Tendremos más información en castellano en la segunda mitad del 2021. Mientras tanto, puedes seguirnos en [Twitter](https://twitter.com/LaRedAwala) o [Facebook](https://www.facebook.com/AwalaNetwork), o visitar el [sitio oficial de Awala en inglés](https://awala.network).
+Tendremos más información en castellano pronto. Mientras tanto, puedes seguirnos en [Twitter](https://twitter.com/LaRedAwala) o [Facebook](https://www.facebook.com/AwalaNetwork), o visitar el [sitio oficial de Awala en inglés](https://awala.network).
