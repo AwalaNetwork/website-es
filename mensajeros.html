@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mensajeros</title>
+
+    <meta property="og:site_name" content="Awala" />
+    <meta property="og:image" content="/assets/images/logo-with-text.png" />
+
+    <meta name="description" content="Restablece la conectividad cuando Internet ha sido cortado."/>
+        <meta name="og:description" content="Restablece la conectividad cuando Internet ha sido cortado."/>
+    
+
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <script defer src="https://kit.fontawesome.com/f4f22c795b.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.usefathom.com/script.js" data-site="IOZYPANF" defer></script>
+
+    <script>
+        <!-- Highlight the current navigation item -->
+        document.addEventListener('DOMContentLoaded', () => {
+            (function () {
+                const currentUrl = location.pathname;
+                const menuItems = document.querySelectorAll('.navbar-menu a');
+                for (let i = 0, len = menuItems.length; i < len; i++) {
+                    if (menuItems[i].getAttribute("href") === currentUrl) {
+                        menuItems[i].classList.add("is-active");
+                    }
+                }
+            })();
+        })
+
+        // Taken from https://bulma.io/documentation/components/navbar/#navbar-menu
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+
+    
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body><nav class="navbar is-spaced container is-max-widescreen" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item has-text-weight-medium" href="/">
+            <img src="/assets/images/logo.png" alt="Awala logo" class="mr-1">
+            Awala
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/usuarios/">
+                    Usuarios
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="/usuarios/descarga">
+                        Descargar
+                    </a>
+
+                    <a class="navbar-item" href="/usuarios/funcionamiento">
+                        Cómo funciona
+                    </a>
+                </div>
+            </div>
+
+            <a class="navbar-item" href="/mensajeros">
+                Mensajeros
+            </a>
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="/acerca">
+                Acerca de Awala
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-link">
+                    <i class="fas fa-language"></i>
+                </div>
+
+                <div class="navbar-dropdown">
+                    <div class="navbar-item" style="font-weight: bold">
+                        Castellano
+                    </div>
+                    <a href="https://awala.network" class="navbar-item">
+                        English
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="rn-main is-max-desktop">
+    
+
+    <article class="rn-page">
+    <h1 id="mantente-conectado-y-a-quienes-te-rodean">Mantente conectado y a quienes te rodean</h1>
+
+<p>Cuando Internet no está disponible, restaura la conectividad a tu alrededor convirtiéndote en un mensajero de Awala.
+El único equipo que necesitas es un teléfono o tableta.</p>
+
+<p>Tu trabajo es <em>retransmitir</em> datos entre los dispositivos de los usuarios de Awala e Internet durante un apagón de Internet.
+Tendrías una ruta, y en cada parada entregarías y recogerías datos.
+Cuando te detengas en un lugar sin acceso a Internet, podrías intercambiar datos con las personas a tu alrededor haciendo que se conecten a tu dispositivo.
+Cuando te detengas en un lugar con acceso a Internet, enviarías todos los datos que recolectaste y luego recogerías nuevos datos que deberían entregarse a las personas en tu ruta.</p>
+
+<p>Este video es una buena introducción al trabajo de un mensajero y termina con una demostración de <a href="https://play.google.com/store/apps/details?id=tech.relaycorp.courier">la aplicación de Android que usarán los mensajeros</a>:</p>
+
+<figure class="rl-youtube-video">
+    <iframe src="https://www.youtube-nocookie.com/embed/UXuLz3q_6bo?cc_load_policy=1&amp;cc_lang_pref=es" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+    </iframe>
+</figure>
+
+<p>Puedes cobrar a los usuarios de Awala por tus servicios para compensar los costos o incluso obtener ganancias.
+Sin embargo, el software no admite pagos, y cualquier intercambio será estrictamente entre tú y el usuario.</p>
+
+<p>Naturalmente, tienes el trabajo más importante en la restauración de la conectividad en caso de un apagón, y entendemos que puedes estar poniéndote en un riesgo significativo. Por esta razón, tu seguridad ha sido una consideración crítica a lo largo del diseño e implementación de Awala.</p>
+
+<p>Es imposible para ti – o cualquiera que te intercepte – ver o cambiar los datos que transportas.
+Solo el remitente puede cambiarlos y solo el destinatario puede verlos.
+Eso significa que no puedes ser coaccionado para revelar o cambiar nada.
+Todo lo que puedes hacer es eliminar los datos, si así lo deseas.</p>
+
+<p>También estamos trabajando en formas de ocultar el hecho de que eres un mensajero en primer lugar, en caso de que fueras interceptado.
+Es posible que tales medidas no estén listas para cuando comencemos algunas pruebas iniciales, pero ciertamente se implementarían antes de que hagamos el software generalmente disponible.</p>
+
+<h2 id="ayúdanos-a-servirte">Ayúdanos a servirte</h2>
+
+<p>Queremos asegurarnos de que Awala te sirva bien como mensajero, así que por favor contáctanos si tienes alguna pregunta, preocupación o sugerencia.
+Estamos particularmente interesados en escuchar sobre tu motivación para convertirte en mensajero, para que podamos adaptar nuestra hoja de ruta en consecuencia.
+No dudes en enviarnos un mensaje privado en <a href="https://www.facebook.com/AwalaNetwork/">Facebook</a> o <a href="https://twitter.com/LaRedAwala">Twitter</a>.</p>
+
+
+    
+</article>
+
+</section>
+<footer class="rn-footer">
+    <div class="rn-footer-container">
+        <div class="columns">
+            <div class="column">
+                <p class="has-text-weight-semibold">Awala</p>
+                <ul>
+                    <li><a href="/usuarios/">Usuarios</a></li>
+                    <li><a href="/mensajeros">Mensajeros</a></li>
+                    <li><a href="/acerca">Acerca de Awala</a></li>
+                    <li><a href="https://awala.network/legal/">Términos legales (inglés) 🡵</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <p class="has-text-weight-semibold">Participa</p>
+                <ul>
+                    <li><a href="/comunidad">Comunidad</a></li>
+                    <li>
+                        <a href="https://twitter.com/LaRedAwala" title="Awala en Twitter" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.reddit.com/r/Awala/" title="Awala en Reddit" class="icon">
+                            <i class="fab fa-reddit"></i>
+                        </a>
+                        <a href="https://www.facebook.com/AwalaNetwork" title="Awala en Facebook" class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCo-KmDc5Cem1n-6yxYBRmNw" title="Awala en YouTube"
+                           class="icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/AwalaNetwork" title="Awala en GitHub" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <p class="has-text-weight-semibold">Relaycorp</p>
+                <ul>
+                    <li><a href="https://relaycorp.tech">Contáctanos (inglés) 🡵</a></li>
+                    <li>
+                        <a
+                            href="https://letro.app/es/"
+                            title="Parecido al email, pero con cifrado de punta a punta, sin spam, sin suplantación de identidad y no requiere de acceso a Internet"
+                        >Letro 🡵</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/RelaycorpHQ" title="Relaycorp en X" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/relaycorp" title="Relaycorp en GitHub" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/relaycorp" title="Relaycorp en LinkedIn" class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rn-footer-legal">
+            <p>
+                Copyright 2019-2024 by <a href="https://relaycorp.tech">Relaycorp</a>.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

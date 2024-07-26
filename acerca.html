@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acerca de Awala</title>
+
+    <meta property="og:site_name" content="Awala" />
+    <meta property="og:image" content="/assets/images/logo-with-text.png" />
+
+    
+
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <script defer src="https://kit.fontawesome.com/f4f22c795b.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.usefathom.com/script.js" data-site="IOZYPANF" defer></script>
+
+    <script>
+        <!-- Highlight the current navigation item -->
+        document.addEventListener('DOMContentLoaded', () => {
+            (function () {
+                const currentUrl = location.pathname;
+                const menuItems = document.querySelectorAll('.navbar-menu a');
+                for (let i = 0, len = menuItems.length; i < len; i++) {
+                    if (menuItems[i].getAttribute("href") === currentUrl) {
+                        menuItems[i].classList.add("is-active");
+                    }
+                }
+            })();
+        })
+
+        // Taken from https://bulma.io/documentation/components/navbar/#navbar-menu
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+
+    
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body><nav class="navbar is-spaced container is-max-widescreen" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item has-text-weight-medium" href="/">
+            <img src="/assets/images/logo.png" alt="Awala logo" class="mr-1">
+            Awala
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/usuarios/">
+                    Usuarios
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="/usuarios/descarga">
+                        Descargar
+                    </a>
+
+                    <a class="navbar-item" href="/usuarios/funcionamiento">
+                        Cómo funciona
+                    </a>
+                </div>
+            </div>
+
+            <a class="navbar-item" href="/mensajeros">
+                Mensajeros
+            </a>
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="/acerca">
+                Acerca de Awala
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-link">
+                    <i class="fas fa-language"></i>
+                </div>
+
+                <div class="navbar-dropdown">
+                    <div class="navbar-item" style="font-weight: bold">
+                        Castellano
+                    </div>
+                    <a href="https://awala.network" class="navbar-item">
+                        English
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="rn-main is-max-desktop">
+    
+
+    <article class="rn-page">
+    <h1 id="acerca-de-awala">Acerca de Awala</h1>
+
+<p>El objetivo a largo plazo de Awala (anteriormente conocida como <em>Relaynet</em>) es complementar Internet proporcionando a todos los seres humanos una comunicación sin censura y oportuna en cualquier lugar del universo, sin que ello perjudique los <a href="https://www.un.org/en/universal-declaration-human-rights/">derechos fundamentales</a> de otros seres humanos.
+La primera prioridad es establecer conectividad en regiones donde Internet no está disponible debido a causas naturales o humanas.</p>
+
+<p>“Awala” significa “hermano” o “hermana” en wayúu (una lengua indígena de Venezuela),
+y simboliza nuestro objetivo de <em>empoderar</em> a los que se encuentran en una situación vulnerable.</p>
+
+<h2 id="estado-actual">Estado actual</h2>
+
+<p>El proyecto está siendo incubado por <a href="https://relaycorp.tech">Relaycorp</a> – una empresa de código abierto orientada a la misión, fundada por el autor de Awala, <a href="https://gustavo.engineer">Gus Narea (inglés) 🡵</a> – con el único propósito de apoyar la red.</p>
+
+<p>Awala ha estado completamente operativa en Android, Linux, macOS y Windows desde 2021,
+y completamos la implementación de la primera aplicación compatible (<a href="https://letro.app/es/">Letro</a>) a finales de 2023.</p>
+
+<h2 id="evaluaciones-independientes">Evaluaciones independientes</h2>
+
+<p>El <a href="https://www.opentech.fund/">Open Technology Fund</a> ha encargado las siguientes evaluaciones independientes:</p>
+
+<ul>
+  <li><a href="https://awala.network/archives/security-audit-2019-03.pdf">Auditoría de seguridad de los protocolos (2019)</a>. Todos los problemas fueron abordados antes de comenzar la implementación de los protocolos.</li>
+  <li><a href="https://awala.network/archives/ux-assessment-2021.pdf">Experiencia de Usuario (2021)</a>.</li>
+</ul>
+
+<p>Una auditoría de seguridad de las implementaciones ha comenzado en julio del 2024.
+Esperamos que el informe esté disponible para finales de año.</p>
+
+
+    
+</article>
+
+</section>
+<footer class="rn-footer">
+    <div class="rn-footer-container">
+        <div class="columns">
+            <div class="column">
+                <p class="has-text-weight-semibold">Awala</p>
+                <ul>
+                    <li><a href="/usuarios/">Usuarios</a></li>
+                    <li><a href="/mensajeros">Mensajeros</a></li>
+                    <li><a href="/acerca">Acerca de Awala</a></li>
+                    <li><a href="https://awala.network/legal/">Términos legales (inglés) 🡵</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <p class="has-text-weight-semibold">Participa</p>
+                <ul>
+                    <li><a href="/comunidad">Comunidad</a></li>
+                    <li>
+                        <a href="https://twitter.com/LaRedAwala" title="Awala en Twitter" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.reddit.com/r/Awala/" title="Awala en Reddit" class="icon">
+                            <i class="fab fa-reddit"></i>
+                        </a>
+                        <a href="https://www.facebook.com/AwalaNetwork" title="Awala en Facebook" class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCo-KmDc5Cem1n-6yxYBRmNw" title="Awala en YouTube"
+                           class="icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/AwalaNetwork" title="Awala en GitHub" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <p class="has-text-weight-semibold">Relaycorp</p>
+                <ul>
+                    <li><a href="https://relaycorp.tech">Contáctanos (inglés) 🡵</a></li>
+                    <li>
+                        <a
+                            href="https://letro.app/es/"
+                            title="Parecido al email, pero con cifrado de punta a punta, sin spam, sin suplantación de identidad y no requiere de acceso a Internet"
+                        >Letro 🡵</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/RelaycorpHQ" title="Relaycorp en X" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/relaycorp" title="Relaycorp en GitHub" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/relaycorp" title="Relaycorp en LinkedIn" class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rn-footer-legal">
+            <p>
+                Copyright 2019-2024 by <a href="https://relaycorp.tech">Relaycorp</a>.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

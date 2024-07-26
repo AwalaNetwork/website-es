@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Usuarios</title>
+
+    <meta property="og:site_name" content="Awala" />
+    <meta property="og:image" content="/assets/images/logo-with-text.png" />
+
+    <meta name="description" content="Usa aplicaciones Awala para mantenerte conectado cuando Internet no está disponible durante días"/>
+        <meta name="og:description" content="Usa aplicaciones Awala para mantenerte conectado cuando Internet no está disponible durante días"/>
+    
+
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <script defer src="https://kit.fontawesome.com/f4f22c795b.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.usefathom.com/script.js" data-site="IOZYPANF" defer></script>
+
+    <script>
+        <!-- Highlight the current navigation item -->
+        document.addEventListener('DOMContentLoaded', () => {
+            (function () {
+                const currentUrl = location.pathname;
+                const menuItems = document.querySelectorAll('.navbar-menu a');
+                for (let i = 0, len = menuItems.length; i < len; i++) {
+                    if (menuItems[i].getAttribute("href") === currentUrl) {
+                        menuItems[i].classList.add("is-active");
+                    }
+                }
+            })();
+        })
+
+        // Taken from https://bulma.io/documentation/components/navbar/#navbar-menu
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+
+    
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body><nav class="navbar is-spaced container is-max-widescreen" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item has-text-weight-medium" href="/">
+            <img src="/assets/images/logo.png" alt="Awala logo" class="mr-1">
+            Awala
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/usuarios/">
+                    Usuarios
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="/usuarios/descarga">
+                        Descargar
+                    </a>
+
+                    <a class="navbar-item" href="/usuarios/funcionamiento">
+                        Cómo funciona
+                    </a>
+                </div>
+            </div>
+
+            <a class="navbar-item" href="/mensajeros">
+                Mensajeros
+            </a>
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="/acerca">
+                Acerca de Awala
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <div class="navbar-link">
+                    <i class="fas fa-language"></i>
+                </div>
+
+                <div class="navbar-dropdown">
+                    <div class="navbar-item" style="font-weight: bold">
+                        Castellano
+                    </div>
+                    <a href="https://awala.network" class="navbar-item">
+                        English
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="rn-main is-max-desktop">
+    
+
+    <article class="rn-page">
+    <h1 id="mantente-conectado-con-o-sin-internet">Mantente conectado con o sin Internet</h1>
+
+<p>Por muy asombroso y ubicuo que parezca Internet, no podemos contar con él cuando más lo necesitamos: simplemente no fue construido para resistir regímenes represivos, desastres naturales, ataques terroristas o guerras. En contraste, Awala fue expresamente concebida para esos escenarios.</p>
+
+<p>Cuando estás conectado a Internet, las aplicaciones compatibles con Awala como <a href="https://letro.app/es/">Letro</a> simplemente lo usarán, y no notarás ninguna diferencia.
+Cuando estás desconectado de Internet, los <a href="/mensajeros">mensajeros</a> pueden transportar de forma segura los datos de tus aplicaciones hacia y desde Internet – sin tener que entregar tu dispositivo a nadie.</p>
+
+<p>¡No necesitas conocer ni confiar en los mensajeros en absoluto! Es imposible para los mensajeros – o cualquiera que los intercepte – ver o cambiar los datos de tus aplicaciones. Ni siquiera pueden ver qué aplicaciones estás usando o vincular esos datos contigo. El peor daño que un mensajero puede causar es perder tus datos en el camino, y aun así Awala lo detectará y corregirá sin problemas.</p>
+
+<p>Mira el siguiente video para tener una mejor idea de cómo funciona Awala con y sin Internet.</p>
+
+<figure class="rl-youtube-video">
+    <iframe src="https://www.youtube-nocookie.com/embed/LL1Z9EGiMVc?cc_load_policy=1&amp;cc_lang_pref=es" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+    </iframe>
+</figure>
+
+<p>También puedes <a href="/usuarios/funcionamiento">leer la descripción general de cómo funciona Awala</a> si quieres saber más.</p>
+
+<p>Awala será la red en la que la humanidad puede confiar verdaderamente,
+y proporcionar comunicación resiliente es solo el comienzo. Otros beneficios a corto plazo incluyen impulsar una nueva generación de aplicaciones que estarán 100% libres de spam y phishing, al tiempo que ofrecen mejor privacidad y seguridad. En el futuro, las aplicaciones de Awala eludirán la censura en línea sin que tengas que instalar Tor o VPNs por separado.</p>
+
+<div class="buttons is-centered">
+  <a class="button is-link" href="/usuarios/descarga">
+    <i class="fas fa-download"></i>
+    Descarga Awala
+  </a>
+</div>
+
+<h2 id="ayúdanos-a-ayudarte">Ayúdanos a ayudarte</h2>
+
+<p>Si te gusta cómo suena esto y quieres ayudar, la mejor manera de hacerlo es hacer que el software que usas agregue soporte para Awala. Por ejemplo, dile a <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.red%2F&amp;via=LaRedAwala&amp;text=.@Facebook%2C%20por%20favor%20agrega%20soporte%20para%20Awala%20para%20que%20pueda%20seguir%20usando%20Facebook%20cuando%20Internet%20est%C3%A9%20cortado&amp;hashtags=KeepItOn">Facebook</a>, <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.red%2F&amp;via=LaRedAwala&amp;text=.@Twitter%2C%20por%20favor%20agrega%20soporte%20para%20Awala%20para%20que%20pueda%20seguir%20usando%20Twitter%20cuando%20Internet%20est%C3%A9%20cortado&amp;hashtags=KeepItOn">Twitter</a> o <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.red%2F&amp;via=LaRedAwala&amp;text=.@WhatsApp%2C%20por%20favor%20agrega%20soporte%20para%20Awala%20para%20que%20pueda%20seguir%20usando%20WhatsApp%20cuando%20Internet%20est%C3%A9%20cortado&amp;hashtags=KeepItOn">WhatsApp</a> que deseas que soporten Awala.</p>
+
+<p>Además, ¡no seas un extraño! Saluda en <a href="https://www.facebook.com/AwalaNetwork">Facebook</a> o <a href="https://twitter.com/LaRedAwala">Twitter</a>, y cuéntanos por qué estás emocionado con Awala. Las preguntas y solicitudes también son bienvenidas. Preferimos las discusiones públicas, pero entendemos si prefieres chatear en privado.</p>
+
+
+
+    
+</article>
+
+</section>
+<footer class="rn-footer">
+    <div class="rn-footer-container">
+        <div class="columns">
+            <div class="column">
+                <p class="has-text-weight-semibold">Awala</p>
+                <ul>
+                    <li><a href="/usuarios/">Usuarios</a></li>
+                    <li><a href="/mensajeros">Mensajeros</a></li>
+                    <li><a href="/acerca">Acerca de Awala</a></li>
+                    <li><a href="https://awala.network/legal/">Términos legales (inglés) 🡵</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <p class="has-text-weight-semibold">Participa</p>
+                <ul>
+                    <li><a href="/comunidad">Comunidad</a></li>
+                    <li>
+                        <a href="https://twitter.com/LaRedAwala" title="Awala en Twitter" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.reddit.com/r/Awala/" title="Awala en Reddit" class="icon">
+                            <i class="fab fa-reddit"></i>
+                        </a>
+                        <a href="https://www.facebook.com/AwalaNetwork" title="Awala en Facebook" class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCo-KmDc5Cem1n-6yxYBRmNw" title="Awala en YouTube"
+                           class="icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://github.com/AwalaNetwork" title="Awala en GitHub" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="column"></div>
+
+            <div class="column">
+                <p class="has-text-weight-semibold">Relaycorp</p>
+                <ul>
+                    <li><a href="https://relaycorp.tech">Contáctanos (inglés) 🡵</a></li>
+                    <li>
+                        <a
+                            href="https://letro.app/es/"
+                            title="Parecido al email, pero con cifrado de punta a punta, sin spam, sin suplantación de identidad y no requiere de acceso a Internet"
+                        >Letro 🡵</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/RelaycorpHQ" title="Relaycorp en X" class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/relaycorp" title="Relaycorp en GitHub" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/relaycorp" title="Relaycorp en LinkedIn" class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rn-footer-legal">
+            <p>
+                Copyright 2019-2024 by <a href="https://relaycorp.tech">Relaycorp</a>.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
