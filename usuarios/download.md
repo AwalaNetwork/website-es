@@ -16,7 +16,7 @@ js:
 **Awala itself is just a platform to run other apps**,
 so you still need other apps like [Letro](https://letro.app/en/) to make the most of it.
 
-By downloading, distributing or using Awala, you agree to abide by [our terms of service ↗](https://awala.network/legal/).
+By downloading, distributing or using Awala, you agree to abide by [our terms of service 🡵](https://awala.network/legal/).
 
 {% include awala_download.html %}
 
@@ -28,4 +28,4 @@ The best thing is that you don't have to take our word for it:
 
 - All the software components that make up the network are open source. If you can't find it on [GitHub](https://github.com/search?q=topic%3Aawala+org%3Arelaycorp), it doesn't exist.
 - The process to package and distribute the software is fully automated, and also open source.
-- Our commitments are actually codified in our [Terms of use and Privacy Policy ↗](https://awala.network/legal/).
+- Our commitments are actually codified in our [Terms of use and Privacy Policy 🡵](https://awala.network/legal/).

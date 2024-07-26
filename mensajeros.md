@@ -1,28 +1,37 @@
 ---
-title: Couriers
-description: Restore connectivity when the Internet has been cut off. Do it for profit, the greater good or both.
+title: Mensajeros
+description: Restablece la conectividad cuando Internet ha sido cortado.
 ---
 
-# Keep yourself and those around you connected
+# Mantente conectado y a quienes te rodean
 
-When the Internet is unavailable, restore connectivity around you by becoming an Awala courier. Do it for profit, the greater good or both. The only equipment you need is a phone, a tablet or a computer.
+Cuando Internet no está disponible, restaura la conectividad a tu alrededor convirtiéndote en un mensajero de Awala.
+El único equipo que necesitas es un teléfono o tableta.
 
-Your job is to _relay_ data between Awala users' devices and the Internet during an Internet blackout. You'd have a route, and at each stop you'd deliver and collect data. When you stop at a location with no access to the Internet, you'd be able to exchange data with people around you by having them connect to your device. When you stop at a location with access to the Internet, you'd send all the data you collected and you'd then collect new data that should be delivered to people on your route.
+Tu trabajo es _retransmitir_ datos entre los dispositivos de los usuarios de Awala e Internet durante un apagón de Internet.
+Tendrías una ruta, y en cada parada entregarías y recogerías datos.
+Cuando te detengas en un lugar sin acceso a Internet, podrías intercambiar datos con las personas a tu alrededor haciendo que se conecten a tu dispositivo.
+Cuando te detengas en un lugar con acceso a Internet, enviarías todos los datos que recolectaste y luego recogerías nuevos datos que deberían entregarse a las personas en tu ruta.
 
-This video is a good introduction to the job of a courier and it ends with a demo of [the Android app that couriers will use](https://play.google.com/store/apps/details?id=tech.relaycorp.courier):
+Este video es una buena introducción al trabajo de un mensajero y termina con una demostración de [la aplicación de Android que usarán los mensajeros](https://play.google.com/store/apps/details?id=tech.relaycorp.courier):
 
 {% include embed_youtube_video.html id="UXuLz3q_6bo" %}
 
-You may collaborate with other couriers to streamline the process and collectively reach every corner of the affected region. For example, like real-world couriers, most of you may do short-distance routes to connect small areas to a sorting facility, and others would be responsible for transporting the data between the sorting facility and an area with access to the Internet.
+Puedes cobrar a los usuarios de Awala por tus servicios para compensar los costos o incluso obtener ganancias.
+Sin embargo, el software no admite pagos, y cualquier intercambio será estrictamente entre tú y el usuario.
 
-You may charge Awala users for your services to offset costs or even make a profit. However, the software we're currently building won't support payments, and any trade will be strictly between you and the user. [Awala may facilitate such transactions in the future](https://github.com/relaynet/specs/issues/34).
+Naturalmente, tienes el trabajo más importante en la restauración de la conectividad en caso de un apagón, y entendemos que puedes estar poniéndote en un riesgo significativo. Por esta razón, tu seguridad ha sido una consideración crítica a lo largo del diseño e implementación de Awala.
 
-Naturally, you have the most important job in restoring connectivity in the event of a blackout, and we understand you may be putting yourself under significant risk. For this reason, your safety has been a critical consideration throughout the design and implementation of Awala.
+Es imposible para ti -- o cualquiera que te intercepte -- ver o cambiar los datos que transportas.
+Solo el remitente puede cambiarlos y solo el destinatario puede verlos.
+Eso significa que no puedes ser coaccionado para revelar o cambiar nada.
+Todo lo que puedes hacer es eliminar los datos, si así lo deseas.
 
-It's impossible for you -- or anyone who intercepts you -- to view or change the data you transport. Only the sender can change it and only the recipient can view it. That means you can't be coerced into revealing or changing anything. All you can do is delete the data, if you so wish.
+También estamos trabajando en formas de ocultar el hecho de que eres un mensajero en primer lugar, en caso de que fueras interceptado.
+Es posible que tales medidas no estén listas para cuando comencemos algunas pruebas iniciales, pero ciertamente se implementarían antes de que hagamos el software generalmente disponible.
 
-We're also working on ways to conceal the fact you're a courier in the first place, in case you were intercepted. Such measures may not be ready by the time we start running some early testing, but they'd certainly be implemented before we make the software generally available.
+## Ayúdanos a servirte
 
-## Help us serve you well
-
-We want to make sure Awala will serve you well as a courier, so please reach out to us if you have any questions, concerns or suggestions. We're particularly keen to hear about your motivation to become a courier, so we can adapt our roadmap accordingly. Feel free to send us a private message on [Facebook](https://www.facebook.com/AwalaNetwork/) or [Twitter](https://twitter.com/AwalaNetwork_).
+Queremos asegurarnos de que Awala te sirva bien como mensajero, así que por favor contáctanos si tienes alguna pregunta, preocupación o sugerencia.
+Estamos particularmente interesados en escuchar sobre tu motivación para convertirte en mensajero, para que podamos adaptar nuestra hoja de ruta en consecuencia.
+No dudes en enviarnos un mensaje privado en [Facebook](https://www.facebook.com/AwalaNetwork/) o [Twitter](https://twitter.com/LaRedAwala).

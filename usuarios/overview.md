@@ -7,7 +7,7 @@ breadcrumbs:
 
 # How Awala works in simple terms
 
-If you're privacy-conscious or just curious, this document should help you understand how Awala works with minimal technical jargon. If you're looking for an accurate explanation, you may prefer to read the [technical overview (inglés) ↗](https://awala.network/tech-overview).
+If you're privacy-conscious or just curious, this document should help you understand how Awala works with minimal technical jargon. If you're looking for an accurate explanation, you may prefer to read the [technical overview (inglés) 🡵](https://awala.network/tech-overview).
 
 We assume you've either used Awala or at least watched [the demo](https://youtu.be/LL1Z9EGiMVc).
 
@@ -39,7 +39,7 @@ Awala assigns your device a unique id that's used to route data to it, amongst o
 
 Since your data passes through an Internet gateway, neither your communication partners nor third-party app developers can determine your IP address — unless they also operate your chosen Internet gateway.
 
-Relaycorp is committed to protecting your privacy, so we only keep the minimum amount of data necessary to operate our Internet gateways. We do log IP addresses for the purposes of troubleshooting and abuse prevention, but we don't track users or share the little we know with third parties. For more information, refer to [our privacy policy ↗](https://awala.network/legal/).
+Relaycorp is committed to protecting your privacy, so we only keep the minimum amount of data necessary to operate our Internet gateways. We do log IP addresses for the purposes of troubleshooting and abuse prevention, but we don't track users or share the little we know with third parties. For more information, refer to [our privacy policy 🡵](https://awala.network/legal/).
 
 We also make the entire source code for Awala publicly available — including the systems we use to automatically publish the software you use. This means that anyone with the relevant technical skills can independently verify our claims, so you don't have to take our word for it.
 

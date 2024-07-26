@@ -1,16 +1,13 @@
 ---
-title: Awala community
-description: Connect with the Awala community on Reddit or GitHub
+title: Comunidad de Awala
+description: Conéctate con la comunidad de Awala en Reddit o GitHub
 ---
 
-# Connect with the Awala community
+# Conéctate con la comunidad de Awala
 
-We're very keen to help you get started with Awala and hear your feedback on the following channels:
+Estamos muy interesados en ayudarte a comenzar con Awala y escuchar tus comentarios en los siguientes canales:
 
-- For general discussions, including issues when using Awala, go to [r/Awala on Reddit](https://www.reddit.com/r/Awala/).
-- If you are User Experience (UX) designer, go to [r/AwalaUX on Reddit](https://www.reddit.com/r/AwalaUX/) to discuss UX-related topics.
-- For technical discussions about building Awala services or Awala itself, go to [@AwalaNetwork on GitHub](https://github.com/orgs/AwalaNetwork/discussions).
-
-On the other hand, if you've discovered a security vulnerability, refer to our [security policy](https://github.com/relaycorp/.github/blob/master/SECURITY.md) instead.
-
-Finally, if you're an organisation interested in a partnership or consulting services, [contact Relaycorp directly](https://relaycorp.tech).
+- Para discusiones generales, incluyendo problemas al usar Awala, ve al [grupo de usuarios y mensajeros en Facebook 🡵](https://www.facebook.com/groups/awala.es).
+  Por tu seguridad, **te recomendamos publicar tus comentarios de manera anónima**.
+- Si estás interesado en contribuir al desarrollo de Awala, es mejor consultar [nuestro sitio en inglés 🡵](https://awala.network/community), ya que todo se coordina en ese idioma.
+- Finalmente, si eres una organización interesada en una colaboración o servicios de consultoría, [contacta directamente con Relaycorp 🡵](https://relaycorp.tech).
