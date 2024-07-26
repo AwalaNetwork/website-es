@@ -1,10 +1,8 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
-gem "jekyll", "3.8.5"
+gem "jekyll", "4.3.3"
 
-gem "minima", "2.5.0"
+gem "kramdown-parser-gfm"
 
-group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-end
+# Work around https://github.com/jekyll/jekyll/issues/8523
+gem "webrick", "~> 1.8.1"

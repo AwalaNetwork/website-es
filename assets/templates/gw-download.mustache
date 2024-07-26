@@ -1,0 +1,107 @@
+<div class="os-selector">
+    <ul>
+        <li class="android">
+            <a onclick="setActiveOS('android')">
+                <span class="icon is-small"><i class="fab fa-android" aria-hidden="true"></i></span>
+                <span>Android</span>
+            </a>
+        </li>
+        <li class="linux">
+            <a onclick="setActiveOS('linux')">
+                <span class="icon is-small"><i class="fab fa-linux" aria-hidden="true"></i></span>
+                <span>Linux</span>
+            </a>
+        </li>
+        <li class="macos">
+            <a onclick="setActiveOS('macos')">
+                <span class="icon is-small"><i class="fab fa-apple" aria-hidden="true"></i></span>
+                <span>macOS</span>
+            </a>
+        </li>
+        <li class="windows">
+            <a onclick="setActiveOS('windows')">
+                <span class="icon is-small"><i class="fab fa-windows" aria-hidden="true"></i></span>
+                <span>Windows</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="os-body">
+    <div class="android is-hidden">
+        <div class="buttons is-centered">
+            <a class="button is-link" href="https://play.google.com/store/apps/details?id=tech.relaycorp.gateway">
+                <i class="fas fa-download"></i>
+                Instalar desde Play Store
+            </a>
+        </div>
+
+        <p>
+            Puedes usar <a href="https://play.google.com/store/apps/details?id=tech.relaycorp.ping">Awala Ping</a> para
+            probar Awala con y sin acceso a Internet.
+        </p>
+
+        <p>
+            Si eres una persona técnica buscando el código fuente, lo encontrarás en
+            <a href="{{ android.githubRepoURL }}"><i class="fab fa-github"></i> {{ android.githubRepoName }}</a>.
+        </p>
+    </div>
+
+    <div class="linux">
+        <div class="buttons is-centered">
+            <a class="button is-link" href="{{ desktop.linuxDownloadURL }}">
+                <i class="fas fa-download"></i>
+                Descargar Awala para Linux
+            </a>
+        </div>
+
+        <p>
+            Actualmente, Awala se distribuye como un <a href="https://appimage.org/">AppImage</a>, pero también planeamos
+            publicar Awala en <a href="https://snapcraft.io/">Snapcraft</a>. ¡Mantente atento!
+        </p>
+
+        <p>
+            Si eres una persona técnica buscando el código fuente, lo encontrarás en
+            <a href="{{ desktop.githubRepoURL }}"><i class="fab fa-github"></i> {{ desktop.githubRepoName }}</a>.
+        </p>
+    </div>
+
+    <div class="macos">
+        <div class="buttons is-centered">
+            <a class="button is-link" href="{{ desktop.macosDownloadURL }}">
+                <i class="fas fa-download"></i>
+                Descargar Awala para macOS
+            </a>
+        </div>
+
+        <p>
+            El soporte para macOS es actualmente experimental y su instalador aún no está firmado por Relaycorp.
+            También planeamos publicar Awala en la App Store eventualmente. ¡Mantente atento!
+        </p>
+
+        <p>
+            Si eres una persona técnica buscando el código fuente, lo encontrarás en
+            <a href="{{ desktop.githubRepoURL }}"><i class="fab fa-github"></i> {{ desktop.githubRepoName }}</a>.
+        </p>
+    </div>
+
+    <div class="windows">
+        <div class="buttons is-centered">
+            <a class="button is-link" href="{{ desktop.windowsDownloadURL }}">
+                <i class="fas fa-download"></i>
+                Descargar Awala para Windows
+            </a>
+        </div>
+
+        <p>
+            Windows debería mostrar <em>Relaycorp, Inc.</em> como el editor del instalador. No
+            procedas con la instalación si se muestra un editor diferente. También planeamos publicar Awala en
+            la Microsoft Store eventualmente. ¡Mantente atento!
+        </p>
+
+        <p>
+            Si eres una persona técnica buscando el código fuente, lo encontrarás en
+            <a href="{{ desktop.githubRepoURL }}"><i class="fab fa-github"></i> {{ desktop.githubRepoName }}</a>.
+        </p>
+    </div>
+</div>
