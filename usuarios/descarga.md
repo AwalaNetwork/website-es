@@ -1,6 +1,7 @@
 ---
 title: Descarga Awala
 description: Cómo descargar Awala con y sin acceso a Internet
+permalink: /usuarios/descarga/
 breadcrumbs:
   - usuarios/index.md
 js:

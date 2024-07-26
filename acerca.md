@@ -1,5 +1,6 @@
 ---
 title: Acerca de Awala
+permalink: /acerca/
 ---
 
 # Acerca de Awala

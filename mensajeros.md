@@ -1,6 +1,7 @@
 ---
 title: Mensajeros
 description: Restablece la conectividad cuando Internet ha sido cortado.
+permalink: /mensajeros/
 ---
 
 # Mantente conectado y a quienes te rodean

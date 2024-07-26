@@ -1,6 +1,7 @@
 ---
 title: Comunidad de Awala
 description: Conéctate con la comunidad de Awala en Reddit o GitHub
+permalink: /comunidad/
 ---
 
 # Conéctate con la comunidad de Awala

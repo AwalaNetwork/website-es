@@ -1,6 +1,7 @@
 ---
 title: Cómo funciona Awala
 description: Awala permite que las aplicaciones compatibles compartan datos con y sin Internet, y utilicen cifrado de punta a punta.
+permalink: /usuarios/funcionamiento/
 breadcrumbs:
 - usuarios/index.md
 ---
