@@ -2,7 +2,7 @@
 title: Download Awala
 description: How to download Awala with and without access to the Internet
 breadcrumbs:
-- users/index.md
+- usuarios/index.md
 js:
   libraries:
     - mustache

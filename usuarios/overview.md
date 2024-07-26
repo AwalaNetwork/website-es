@@ -2,7 +2,7 @@
 title: How Awala works
 description: Awala enables compatible apps to share data with and without the Internet, and use end-to-end encryption.
 breadcrumbs:
-- users/index.md
+- usuarios/index.md
 ---
 
 # How Awala works in simple terms
@@ -15,7 +15,7 @@ We assume you've either used Awala or at least watched [the demo](https://youtu.
 
 Mainstream apps on your phone or computer, such as Facebook and Google Chrome, require an Internet connection to send and receive data from a server because the app itself establishes the connection with the remote server.
 
-In contrast, Awala-compatible apps delegate that responsibility to other components, like the [Awala app on your phone or computer]({% link users/download.md %}). This way, your favourite apps can let Awala use the best transport available to you at any point, and they can focus on what they do best.
+In contrast, Awala-compatible apps delegate that responsibility to other components, like the [Awala app on your phone or computer]({% link usuarios/download.md %}). This way, your favourite apps can let Awala use the best transport available to you at any point, and they can focus on what they do best.
 
 Behind the scenes, your Awala app connects to an _Internet gateway_, which is a server that acts as a bridge between your device and the rest of Awala on the Internet. All your data is routed through this server, so it can hold incoming data for you whilst you're disconnected. By default, you're paired with an Internet gateway operated by Relaycorp, but you can, in principle, run your own.
 
@@ -27,7 +27,7 @@ If the Internet were available, the Awala app would just send the message to the
 
 ## End-to-end encryption
 
-Similar to how your WhatsApp conversations are [end-to-end encrypted](https://www.kaspersky.com/blog/what-is-end-to-end-encryption/37011/), ensuring that only you and your contacts can access them, all data exchanged via Awala is also end-to-end encrypted. As a result, neither [couriers]({% link couriers.md %}) nor Internet gateways can read or change your data during transit.
+Similar to how your WhatsApp conversations are [end-to-end encrypted](https://www.kaspersky.com/blog/what-is-end-to-end-encryption/37011/), ensuring that only you and your contacts can access them, all data exchanged via Awala is also end-to-end encrypted. As a result, neither [couriers]({% link mensajeros.md %}) nor Internet gateways can read or change your data during transit.
 
 Awala also enables bypassing third-party servers, like those operated by social networks, delivering data directly to recipients without the third-party developer being aware of the communication. This means that Awala apps can be more decentralised than their Internet counterparts.
 
@@ -50,4 +50,4 @@ We also make the entire source code for Awala publicly available — including t
 Regardless of any security issues present in Awala, you should still be aware that the following limitations that apply to Awala and anything else on your device:
 
 - If the device is compromised, the attacker could compromise your apps' data, including Awala's.
-- An attacker may distribute apps that look like Awala or an Awala-compatible app, but are actually malicious, so you should only [install Awala from trusted sources]({% link users/download.md %}).
+- An attacker may distribute apps that look like Awala or an Awala-compatible app, but are actually malicious, so you should only [install Awala from trusted sources]({% link usuarios/download.md %}).
