@@ -1,6 +1,5 @@
 title: "Awala"
-description: "The network on which humankind can truly rely"
-permalink: /blog/:slug
+description: "La red en la que la humanidad realmente puede confiar"
 
 defaults:
   - values:
