@@ -5,7 +5,6 @@ const DESKTOP_GW_REPO = `awala-gateway-desktop`;
 const ANDROID_GW_REPO = `relaynet-gateway-android`;
 const DESKTOP_GW_RELEASE_ASSET_PREFIX =
     `https://github.com/${ORG_NAME}/${DESKTOP_GW_REPO}/releases/download`;
-const DESKTOP_PING_URL = 'https://www.npmjs.com/package/@relaycorp/awala-ping';
 
 const downloadSection = $('.rn-gw-download');
 
@@ -39,7 +38,6 @@ async function getReleaseData() {
             macosDownloadURL,
             windowsDownloadURL,
             version: desktopVersion,
-            pingURL: DESKTOP_PING_URL,
         }
     };
 }

@@ -1,39 +1,39 @@
 ---
-title: Users
-description: Use Awala apps to remain connected when the Internet is unavailable for days at a time
+title: Usuarios
+description: Usa aplicaciones Awala para mantenerte conectado cuando Internet no está disponible durante días
 ---
 
-# Stay connected with or without the Internet
+# Mantente conectado con o sin Internet
 
-As amazing and ubiquitous as the Internet is, we can't count on it when we need it most -- it just wasn't built to withstand repressive regimes, natural disasters, terrorist attacks or wars. By contrast, Awala was expressly conceived for those scenarios.
+Por muy asombroso y ubicuo que parezca Internet, no podemos contar con él cuando más lo necesitamos: simplemente no fue construido para resistir regímenes represivos, desastres naturales, ataques terroristas o guerras. En contraste, Awala fue expresamente concebida para esos escenarios.
 
-When you're connected to the Internet, Awala-compatible apps like [Letro](https://letro.app/en/) will simply use it, and you won't notice a difference.
-When you're disconnected from the Internet, [couriers]({% link mensajeros.md %}) can securely transport your apps' data to and from the Internet -- without ever handing over your device to anyone.
+Cuando estás conectado a Internet, las aplicaciones compatibles con Awala como [Letro](https://letro.app/es/) simplemente lo usarán, y no notarás ninguna diferencia.
+Cuando estás desconectado de Internet, los [mensajeros]({% link mensajeros.md %}) pueden transportar de forma segura los datos de tus aplicaciones hacia y desde Internet -- sin tener que entregar tu dispositivo a nadie.
 
-You don't need to know or trust couriers at all! It's impossible for couriers -- or anyone who intercepts them -- to see or change your apps' data. They can't even see which apps you're using or link that data to you. The worst damage that a courier can cause is to drop your data along the way, and even then Awala will seamlessly detect it and correct it.
+¡No necesitas conocer ni confiar en los mensajeros en absoluto! Es imposible para los mensajeros -- o cualquiera que los intercepte -- ver o cambiar los datos de tus aplicaciones. Ni siquiera pueden ver qué aplicaciones estás usando o vincular esos datos contigo. El peor daño que un mensajero puede causar es perder tus datos en el camino, y aun así Awala lo detectará y corregirá sin problemas.
 
-Watch the following video to get a better idea of how Awala works with and without the Internet.
+Mira el siguiente video para tener una mejor idea de cómo funciona Awala con y sin Internet.
 
 {% include embed_youtube_video.html id="LL1Z9EGiMVc" %}
 
-You can also [read the overview of how Awala works]({% link usuarios/overview.md %}) if you want to learn more.
+También puedes [leer la descripción general de cómo funciona Awala]({% link usuarios/funcionamiento.md %}) si quieres saber más.
 
-Awala will be the network on which humankind can truly rely,
-and providing resilient communication is just the beginning. Other short-term benefits include powering a new generation of apps that will be 100% free of spam and phishing, while offering better privacy and security. In the future, Awala apps will circumvent online censorship without you having to install Tor or VPNs separately.
+Awala será la red en la que la humanidad puede confiar verdaderamente,
+y proporcionar comunicación resiliente es solo el comienzo. Otros beneficios a corto plazo incluyen impulsar una nueva generación de aplicaciones que estarán 100% libres de spam y phishing, al tiempo que ofrecen mejor privacidad y seguridad. En el futuro, las aplicaciones de Awala eludirán la censura en línea sin que tengas que instalar Tor o VPNs por separado.
 
 <div class="buttons is-centered">
-  <a class="button is-link" href="{% link usuarios/download.md %}">
+  <a class="button is-link" href="{% link usuarios/descarga.md %}">
     <i class="fas fa-download"></i>
-    Download Awala
+    Descarga Awala
   </a>
 </div>
 
-## Help us help you
+## Ayúdanos a ayudarte
 
-If you like the sound of this and want to help, the best way to do so is by getting the software that you use to add support for Awala. For example, tell [Facebook][cta_facebook], [Twitter][cta_twitter] or [WhatsApp][cta_whatsapp] that you wish they supported Awala.
+Si te gusta cómo suena esto y quieres ayudar, la mejor manera de hacerlo es hacer que el software que usas agregue soporte para Awala. Por ejemplo, dile a [Facebook][cta_facebook], [Twitter][cta_twitter] o [WhatsApp][cta_whatsapp] que deseas que soporten Awala.
 
-Also, don't be a stranger! Say hi on [Facebook](https://www.facebook.com/AwalaNetwork) or [Twitter](https://twitter.com/LaRedAwala), and tell us why you're excited about Awala. Questions and requests are also welcomed. We prefer public discussions but we understand if you'd rather chat in private.
+Además, ¡no seas un extraño! Saluda en [Facebook](https://www.facebook.com/AwalaNetwork) o [Twitter](https://twitter.com/LaRedAwala), y cuéntanos por qué estás emocionado con Awala. Las preguntas y solicitudes también son bienvenidas. Preferimos las discusiones públicas, pero entendemos si prefieres chatear en privado.
 
-[cta_facebook]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.network%2F&via=AwalaNetwork&text=.@Facebook%2C%20please%20add%20support%20for%20Awala%20so%20I%20can%20continue%20to%20use%20Facebook%20when%20the%20Internet%20is%20cut%20off&hashtags=KeepItOn
-[cta_twitter]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.network%2F&via=AwalaNetwork&text=.@Twitter%2C%20please%20add%20support%20for%20Awala%20so%20I%20can%20continue%20to%20use%20Twitter%20when%20the%20Internet%20is%20cut%20off&hashtags=KeepItOn
-[cta_whatsapp]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.network%2F&via=AwalaNetwork&text=.@WhatsApp%2C%20please%20add%20support%20for%20Awala%20so%20I%20can%20continue%20to%20use%20WhatsApp%20when%20the%20Internet%20is%20cut%20off&hashtags=KeepItOn
+[cta_facebook]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.red%2F&via=LaRedAwala&text=.@Facebook%2C%20por%20favor%20agrega%20soporte%20para%20Awala%20para%20que%20pueda%20seguir%20usando%20Facebook%20cuando%20Internet%20est%C3%A9%20cortado&hashtags=KeepItOn
+[cta_twitter]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.red%2F&via=LaRedAwala&text=.@Twitter%2C%20por%20favor%20agrega%20soporte%20para%20Awala%20para%20que%20pueda%20seguir%20usando%20Twitter%20cuando%20Internet%20est%C3%A9%20cortado&hashtags=KeepItOn
+[cta_whatsapp]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fawala.red%2F&via=LaRedAwala&text=.@WhatsApp%2C%20por%20favor%20agrega%20soporte%20para%20Awala%20para%20que%20pueda%20seguir%20usando%20WhatsApp%20cuando%20Internet%20est%C3%A9%20cortado&hashtags=KeepItOn
