@@ -1,16 +1,48 @@
 title: "Awala"
-description: "La red más resistente y moderna"
-author: "Relaycorp, Inc."
-lang: es
+description: "The network on which humankind can truly rely"
+permalink: /blog/:slug
 
-twitter_username: LaRedAwala
-facebook_username: AwalaNetwork
+defaults:
+  - values:
+      description: null
+      breadcrumbs: null
+      pagination:
+        previous: null
+        next: null
+      js:
+        libraries: []
+        scripts: []
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
 
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+liquid:
+  strict_variables: true
+  strict_filters: true
+sass:
+  load_paths:
+    - node_modules
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - node_modules
+  - .idea
+  - README.md
+
+# Custom variables
+
+javascript_libraries:
+  cash-dom:
+    # https://www.jsdelivr.com/package/npm/cash-dom
+    version: 8.1.5
+    digest: "sha256-mgRBiO/bYlxeBNEiBpjAmZJ/8Wv7Q0w3zX8E3V7hrh8="
+    path: "dist/cash.min.js"
+  mustache:
+    # https://www.jsdelivr.com/package/npm/mustache
+    version: 4.2.0
+    digest: "sha256-1/0GA1EkYejtvYFoa+rSq4LfM4m5zKI13Z1bQIhI4Co="
+    path: "mustache.min.js"
